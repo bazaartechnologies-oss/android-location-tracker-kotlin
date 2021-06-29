@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.annotation.CallSuper
 import androidx.fragment.app.Fragment
+import bazaar.tech.library.location.configuration.Configurations
 import bazaar.tech.library.location.configuration.LocationConfiguration
 import bazaar.tech.library.location.helper.LogUtils
 import bazaar.tech.library.location.listener.LocationListener
@@ -20,7 +21,7 @@ abstract class LocationProvider {
      * and call it when at least one location is received
      */
     open var isWaiting = false
-    lateinit var configuration: LocationConfiguration
+    var configuration: LocationConfiguration = Configurations.silentConfiguration(false)
         private set
     lateinit var contextProcessor: ContextProcessor
     private var weakLocationListener: WeakReference<LocationListener?>? = null
