@@ -172,7 +172,7 @@ Add library dependency to your `build.gradle` file:
 
 ```groovy
 dependencies {    
-//     implementation 'com.github.bazaartechnologies-oss:android-location-tracker-kotlin:1.0.0'
+     implementation 'com.github.bazaartechnologies-oss:android-location-tracker-kotlin:1.0.0'
 }
 ```
 

@@ -9,7 +9,8 @@ import com.bazaar.location.sample.activity.SampleActivity
 import com.bazaar.location.sample.fragment.SampleFragmentActivity
 import com.bazaar.location.sample.service.SampleServiceActivity
 
-class MainActivity : AppCompatActivity() {
+class HomeActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
