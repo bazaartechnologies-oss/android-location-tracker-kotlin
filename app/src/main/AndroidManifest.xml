@@ -1,0 +1,37 @@
+<manifest package="com.bazaar.location.sample"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Required to check whether user has network connection or not -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Dangerous Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="com.bazaar.location.sample.SampleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning" >
+
+        <activity android:name="com.bazaar.location.sample.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.bazaar.location.sample.activity.SampleActivity" />
+        <activity android:name="com.bazaar.location.sample.fragment.SampleFragmentActivity" />
+        <activity android:name="com.bazaar.location.sample.service.SampleServiceActivity" />
+
+        <service android:name="com.bazaar.location.sample.service.SampleService" />
+
+    </application>
+
+</manifest>
