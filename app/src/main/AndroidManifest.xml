@@ -11,7 +11,6 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
-        android:name="com.bazaar.location.sample.SampleApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -26,11 +25,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.bazaar.location.sample.activity.SampleActivity" />
-        <activity android:name="com.bazaar.location.sample.fragment.SampleFragmentActivity" />
-        <activity android:name="com.bazaar.location.sample.service.SampleServiceActivity" />
+        <activity android:name=".activity.SampleActivity" />
+        <activity android:name=".fragment.SampleFragmentActivity" />
+        <activity android:name=".service.SampleServiceActivity" />
 
-        <service android:name="com.bazaar.location.sample.service.SampleService" />
+        <service android:name=".service.SampleService" />
 
     </application>
 
