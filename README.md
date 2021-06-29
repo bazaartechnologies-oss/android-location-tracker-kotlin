@@ -172,24 +172,24 @@ Add library dependency to your `build.gradle` file:
 
 ```groovy
 dependencies {    
-     implementation 'com.github.hamzaahmedkhan:AndroidLocationTracker:1.0.0'
+//     implementation 'com.github.bazaartechnologies-oss:android-location-tracker-kotlin:1.0.0'
 }
 ```
 
 [1]: https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderClient
-[2]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/base/LocationBaseActivity.kt
-[3]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/base/LocationBaseFragment.kt
-[4]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/base/LocationBaseService.kt
-[5]: https://github.com/hamzaahmedkhan/LocationManager/tree/master/app
-[6]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/configuration/Configurations.kt
-[7]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/permissionprovider/PermissionProvider.kt
-[8]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/configuration/PermissionConfiguration.kt
-[9]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/permissionprovider/DefaultPermissionProvider.kt
-[10]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/permissionprovider/StubPermissionProvider.kt
-[11]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/dialogprovider/DialogProvider.kt
-[12]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/dialogprovider/SimpleMessageDialogProvider.kt
-[13]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/locationprovider/LocationProvider.kt
-[14]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/locationprovider/DispatcherLocationProvider.kt
-[15]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/app/src/main/java/bazaar/tech/library/location/sample/fragment/SampleFragmentActivity.kt
-[16]: https://github.com/hamzaahmedkhan/LocationManager/blob/master/app/src/main/java/bazaar/tech/library/location/sample/service/SampleService.kt
+[2]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/base/LocationBaseActivity.kt
+[3]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/base/LocationBaseFragment.kt
+[4]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/base/LocationBaseService.kt
+[5]: https://github.com/bazaartechnologies-oss/LocationManager/tree/master/app
+[6]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/configuration/Configurations.kt
+[7]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/permissionprovider/PermissionProvider.kt
+[8]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/configuration/PermissionConfiguration.kt
+[9]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/permissionprovider/DefaultPermissionProvider.kt
+[10]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/permissionprovider/StubPermissionProvider.kt
+[11]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/dialogprovider/DialogProvider.kt
+[12]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/dialogprovider/SimpleMessageDialogProvider.kt
+[13]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/locationprovider/LocationProvider.kt
+[14]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/library/src/main/java/bazaar/tech/library/location/providers/locationprovider/DispatcherLocationProvider.kt
+[15]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/app/src/main/java/bazaar/tech/library/location/sample/fragment/SampleFragmentActivity.kt
+[16]: https://github.com/bazaartechnologies-oss/LocationManager/blob/master/app/src/main/java/bazaar/tech/library/location/sample/service/SampleService.kt
 [17]:https://developer.android.com/guide/topics/location/strategies.html
