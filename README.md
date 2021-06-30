@@ -1,7 +1,7 @@
 # AndroidLocationTracker
 
 
-<img src='screenshot/location_tracking.png' height=1910 width=1168 />
+<img src='screenshot/location_tracking.png' />
 
 To get location on Android Devices, there are 'some' steps you need to go through!
 What are those? Let's see...
