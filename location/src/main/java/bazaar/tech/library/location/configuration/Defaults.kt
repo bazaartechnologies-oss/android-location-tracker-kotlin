@@ -22,18 +22,18 @@ object Defaults {
     const val PERMISSION_MESSAGE = "Please provide GPS permissions"
 
     @kotlin.jvm.JvmField
-    val LOCATION_PERMISSIONS = arrayOf(Manifest.permission.ACCESS_COARSE_LOCATION,
-            Manifest.permission.ACCESS_FINE_LOCATION)
+    val LOCATION_PERMISSIONS = arrayOf(
+        Manifest.permission.ACCESS_COARSE_LOCATION,
+        Manifest.permission.ACCESS_FINE_LOCATION
+    )
     private const val LOCATION_PRIORITY = LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY
-    private const val LOCATION_FASTEST_INTERVAL = MINUTE
+    private const val LOCATION_FASTEST_INTERVAL = SECOND * 10
 
     /**
      * https://developers.google.com/android/reference/com/google/android/gms/location/LocationRequest
      */
     fun createDefaultLocationRequest(): LocationRequest {
-        return LocationRequest.create()
-                .setPriority(LOCATION_PRIORITY)
-                .setInterval(LOCATION_INTERVAL.toLong())
-                .setFastestInterval(LOCATION_FASTEST_INTERVAL.toLong())
+        return LocationRequest.Builder(LOCATION_PRIORITY, LOCATION_INTERVAL.toLong())
+            .setMinUpdateIntervalMillis(SECOND.toLong()).build()
     }
 }

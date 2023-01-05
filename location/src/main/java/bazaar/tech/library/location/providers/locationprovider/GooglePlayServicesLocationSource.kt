@@ -24,7 +24,7 @@ class GooglePlayServicesLocationSource(private val context: Context, private val
     }
 
     fun checkLocationSettings() {
-        LocationServices.getSettingsClient(fusedLocationProviderClient.applicationContext)
+        LocationServices.getSettingsClient(context)
                 .checkLocationSettings(
                         LocationSettingsRequest.Builder()
                                 .addLocationRequest(locationRequest)
